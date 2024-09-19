@@ -1,0 +1,51 @@
+a = 6
+b = 3
+print("arithmetic operation" )
+print(a + b)
+print(a - b)
+print(a * b) 
+print(a / b)
+print(a ** b)  
+print(a % b)  
+print(a//b)
+print("bitwise operation ")
+print(a&b)
+print(a|b)
+print (a^b)
+print(a>>b)
+print(a<<b)
+print("comparison operation" )
+print (a>b)
+print(a<b)
+print(a>=b)
+print(a<=b)
+print(a!=b)
+print(a==b)
+print("logical operation ")
+c=10
+print(c>2 and c<5)
+print(c>5 or c<15)
+print(not (c>5 or c<15))
+print("membership operation ")
+var = (10,20,30,40)
+x= 10
+y = 20
+print ((x,y), "in", var, ":", (x,y) in var)
+var = ((10,20),30,40)
+x = 10
+y= 20
+print ((x,y), "in", var, ":", (x,y) in var)
+print ("identity operation")
+#is
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+print(x is z)
+print(x is y)
+print(x == y)
+#is not 
+print(x is not z)
+print(x is not y)
+print(x != y)
+
+
